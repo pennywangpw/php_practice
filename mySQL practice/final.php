@@ -10,12 +10,16 @@ include("final_db.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        <?php include 'final.css'; ?>
+    </style>
+
 </head>
 
 <body>
     <!--1. read current file -->
     <form action="<?php $_SERVER["PHP_SELF"] ?>" method="post">
-        <h1>Welcome to Fakebook!</h1><br>
+        <h1>Welcome to Penny's website!</h1><br>
         <label>username:</label><br>
         <input type="text" name="username"><br>
         <label>password:</label><br>
